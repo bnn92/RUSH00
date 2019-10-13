@@ -36,7 +36,12 @@
 	background-color: white;
 	text-align: center;
 	font-size: xx-large;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;}
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 3px 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #666;}
 
 .face {
 	display: grid;
@@ -74,5 +79,25 @@ A {
 }
 
 .sign {
-	
-}
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 20%;
+	grid-column-gap: 20px;
+	grid-row-gap: 100px;
+	margin: auto;
+	height: 200px;
+	font-size: xx-large;
+	padding: 3px 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #666;}
+
+.but {
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 10%;
+	color:white;
+	height: 100%;
+	font-size: xx-large;
+	margin:  0 auto;}
