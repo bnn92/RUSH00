@@ -101,3 +101,17 @@ A {
 	height: 100%;
 	font-size: xx-large;
 	margin:  0 auto;}
+
+.branch {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 70%;
+	grid-column-gap: 20px;
+	margin: auto;}
+
+.icon {
+	display: grid;
+	border-color: 2px solid white;
+	border-radius: 3px;
+	width: 60%;
+	margin: auto;}
